@@ -10,3 +10,8 @@ a git submodule.
 ## Source code
 
 *libfile* source is available [here](https://github.com/animalcreek/libfile).
+
+## Source code documentation
+
+*libfile* source documentation is available
+[here](https://animalcreek.github.io/libfile)
