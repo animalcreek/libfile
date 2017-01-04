@@ -1,0 +1,12 @@
+/**
+ * @brief Main libfile documentation page
+ * @author Mark Greer <mgreer@animalcreek.com>
+ * @file
+ */
+
+/**
+ * @mainpage libfile - File Helper Library
+ *
+ * libfile is an open source library with some helpful routines to make
+ * common Linux(tm) file operations easier.
+ */
