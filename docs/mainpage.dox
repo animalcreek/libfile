@@ -9,4 +9,6 @@
  *
  * libfile is an open source library with some helpful routines to make
  * common Linux(tm) file operations easier.
+ *
+ * Source code is available at https://github.com/animalcreek/libfile
  */
