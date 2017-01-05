@@ -26,8 +26,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef LIBFILE_H
-#define LIBFILE_H
+#ifndef __LIBFILE_H
+#define __LIBFILE_H
 
 /**
  * @file libfile/file.h
