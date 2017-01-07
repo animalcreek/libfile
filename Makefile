@@ -37,13 +37,13 @@ libfile_OBJS = file.o
 PHONY := all
 all: $(libfile_OBJS)
 
-%.o: %.c
-	@echo "  CC    $(subst $(TOPDIR)/, ,$(realpath $<))"
-	$(Q)$(CC) -c $(CPPFLAGS) $(CFLAGS) $< -o $@
-
 PHONY += clean
 clean:
 	@echo "  CLEAN   $(subst $(TOPDIR)/, ,$(CURDIR))"
 	$(Q)$(RM) $(libfile_OBJS)
+
+%.o: %.c
+	@echo "  CC    $(subst $(TOPDIR)/, ,$(realpath $<))"
+	$(Q)$(CC) -c $(CPPFLAGS) $(CFLAGS) $< -o $@
 
 .PHONY: $(PHONY)
